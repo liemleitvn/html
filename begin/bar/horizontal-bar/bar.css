@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Set do dai cua bar*/
+.horizontal-bar {
+    width: 100%;
+}
+
+/*Dac tinh cua ul*/
+.horizontal-bar ul {
+    background: gainsboro;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+/*dac tinh cua li*/
+.horizontal-bar li {
+    float: left;
+    border-right: 1px solid #bbb;/*Hien thi border ben phai cac tool bar*/
+}
+
+/*Tool thu 3 khong set border*/
+.horizontal-bar li.none-border {
+    border-right: none;
+}
+
+.horizontal-bar li a {
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.horizontal-bar li a.active {
+    background: red;
+}
+
+.horizontal-bar li.about {
+    float: right;
+}
+
+.horizontal-bar li a:hover:not(.active) {
+    background-color: #111;
+    -webkit-transition: background-color 2000ms linear;
+}
+
+
+.container {
+    background: antiquewhite;
+}
+.container .main{
+    border: 1px;
+    height: 300px;
+    width: 100%;
+}
+
+.container .main p {
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#id-news {
+}
+
+.sub-menu-news {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 73px;
+    z-index: 1;
+}
+
+#id-news:hover .sub-menu-news {
+    display: block;
+}
+
+.sub-menu-news a {
+    color: black !important;
+    padding: 8px 16px !important;
+    text-decoration: none;
+    display: block !important;
+    background: darkgrey;
+}
+
+.sub-menu a:hover {
+    background: chocolate !important;
+}
+
+#id-contact {
+}
+
+.sub-menu-contact {
+    display: none;
+    position: absolute;
+    background-color:#f9f9f9 ;
+    width: 93px;
+    z-index: 1;
+}
+
+.sub-menu-contact a {
+    color: black !important;
+    padding: 8px 25px !important;
+    text-decoration: none;
+    display: block !important;
+    background: darkgrey;
+}
+
+#id-contact:hover .sub-menu-contact {
+    display: block;
+}

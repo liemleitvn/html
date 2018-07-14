@@ -1,0 +1,160 @@
+body {
+    background: antiquewhite;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse; /*tao duong vien ngang doc phan cach tung o cua table*/
+    width: 100%;
+    empty-cells: hide; /*nhung o trong trong table se khong hien thi border*/
+    table-layout: fixed; /*dung lenh nay khi table lon thi browser se load tu tren xuong,
+                            nghia la ta co the nhin thay phia tren cua table trong khi phia duoi se duoc tiep tuc load*/
+    box-sizing: border-box;/*Co đinh kich thuoc cua table khong tang them khi set margin, border, padding*/
+    margin: auto; /*lenh nay cong voi lenh set width thi table se nam o giua cua page*/
+
+    /*!*outline de set duong vien phia ngoai border cach border 10px*!*/
+    /*outline: 1px solid black;*/
+    /*outline-offset: 10px;*/
+
+    overflow: auto;/*xuat hien thanh cuon (ngang, doc) khi table qua lon khong du de hien thi*/
+}
+td{
+    border: 1px solid black;
+    border-collapse:collapse;
+    padding: 10px;
+    color: black;
+}
+th {
+    border: 1px solid black; /*chieu rong va mau cua duong vien*/
+    border-collapse: collapse;/*Tao duong vien phan cach cac dong, cac cot*/
+    text-align: center;
+    background: blue;
+    padding: 10px;
+    font-size: 18px;
+    font-style: inherit;/*kieu chu*/
+    color: red;
+}
+/*2 lenh css duoi la xet mau nen tung hang xen ke cua table*/
+tr:nth-child(even) {
+    background: chocolate;
+}
+tr:nth-child(odd) {
+    background:white;
+}
+/*style nay dung de dinh dang caption trong table*/
+/*caption thuong dung de hien thi phan ghi chu hay tieu de cua bang*/
+caption {
+    caption-side: top; /*vi tri dat caption la top cua table*/
+    color: black;
+    font-size: 25px;
+    text-shadow: 4px -2px brown; /*tao bong cho text*/
+    font: 30px "Times New Roman";
+    font-weight: bold; /*trong so cua chu*/
+    font-style: italic;/*kieu chu in nghieng*/
+}
+
+/*style tr:hover dung de khi di chuyen chuot vao tung hang cua table thi backgruoud se thay doi*/
+tr:hover {
+    background: antiquewhite;
+}
+
+
+a:link, a:visited {
+
+    text-decoration: none; /*khong hien thi duong gach duoi cua link*/
+}
+a:hover, a:active {
+    text-decoration: underline; /*hien thi duong gach duoi cua link*/
+    color: red;
+    font-weight: bold;
+}
+
+.modal {
+    display: none;
+}
+button {
+    background: darkcyan;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    width: auto;
+    margin-bottom: 30px;
+}
+/*style này dùng để khi di chuột qua button thì color còn 0.8*/
+button:hover {
+    opacity: 0.8;
+}
+
+/*set position tương đối*/
+.container {
+    margin-top: 40px;
+    position: relative;
+    clip: auto; /*Chi dinh khung chua cua phan tu*/
+}
+
+/*set position tuyệt đối*/
+.center {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;/*đặt mờ image*/
+}
+
+
+
+/*body {*/
+    /*background: antiquewhite;*/
+/*}*/
+/*.h1 {*/
+    /*color: red;*/
+    /*text-align: center;*/
+    /*font: 40px "Times New Roman";*/
+    /*font-weight: bold;*/
+/*}*/
+
+/*table {*/
+    /*width: 50%;*/
+    /*margin: auto;*/
+    /*border: 1px solid black;*/
+    /*box-sizing: border-box;*/
+    /*border-collapse: collapse;*/
+    /*empty-cells: hide;*/
+
+/*}*/
+/*table th {*/
+    /*background: blue;*/
+    /*font: 20px "Times New Roman";*/
+    /*font-size: 20px;*/
+    /*border: 1px solid black;*/
+    /*padding: 5px;*/
+/*}*/
+
+/*table td {*/
+    /*border: 1px solid black;*/
+    /*padding: 5px;*/
+/*}*/
+
+/*tr:nth-child(even) {*/
+    /*background: white;*/
+/*}*/
+/*tr:nth-child(odd) {*/
+    /*background: aquamarine;*/
+/*}*/
+
+/*tr:hover {*/
+    /*background: cadetblue;*/
+/*}*/
+/*caption {*/
+    /*font: 15px "Times New Roman";*/
+    /*color: blueviolet;*/
+    /*font-style: italic;*/
+    /*caption-side: top;*/
+/*}*/
