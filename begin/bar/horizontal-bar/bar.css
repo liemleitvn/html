@@ -1,4 +1,4 @@
-body {
+*{
     margin: 0;
     padding: 0;
 }
@@ -11,8 +11,6 @@ body {
 /*Dac tinh cua ul*/
 .horizontal-bar ul {
     background: gainsboro;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     list-style-type: none;
 }
@@ -27,8 +25,9 @@ body {
     border-right: none;
 }
 
+/*Set dac trung cua cac link tren bar*/
 .horizontal-bar li a {
-    display: block;
+    display: block; /*Đặt style này để ô link tràn hết ra bìa*/
     padding: 14px 16px;
     color: white;
     text-decoration: none;
@@ -37,40 +36,22 @@ body {
     font-weight: bold;
 }
 
+/*Dac tinh cua Home*/
 .horizontal-bar li a.active {
     background: red;
 }
 
-.horizontal-bar li.about {
+/*Đưa About ve ben phai*/
+.horizontal-bar li:last-child {
     float: right;
 }
 
+/*Dac tinh cua cac link khac tru Home*/
 .horizontal-bar li a:hover:not(.active) {
     background-color: #111;
     -webkit-transition: background-color 2000ms linear;
 }
 
-
-.container {
-    background: antiquewhite;
-}
-.container .main{
-    border: 1px;
-    height: 300px;
-    width: 100%;
-}
-
-.container .main p {
-    padding: 30px;
-    margin: 0;
-    text-align: center;
-    color: red;
-    font-size: 40px;
-    font-weight: bold;
-}
-
-#id-news {
-}
 
 .sub-menu-news {
     display: none;
@@ -96,9 +77,6 @@ body {
     background: chocolate !important;
 }
 
-#id-contact {
-}
-
 .sub-menu-contact {
     display: none;
     position: absolute;
@@ -117,4 +95,24 @@ body {
 
 #id-contact:hover .sub-menu-contact {
     display: block;
+}
+
+
+
+.container {
+    background: antiquewhite;
+}
+.container .main{
+    border: 1px;
+    height: 300px;
+    width: 100%;
+}
+
+.container .main p {
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
 }

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.about_detail {
+    width: 100%;
+    text-align: center;
+}
+
+.about_detail h1.title {
+    text-align: center;
+    margin: 30px;
+}
+
+.about_detail p.detail {
+    text-align: left;
+    line-height: 170%;
+    margin: 20px;
+}
+
+.about_detail map area {
+    width: 500px;
+    height: auto;
+}

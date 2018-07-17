@@ -25,7 +25,7 @@
                         <li><a href="#">Item3</a></li>
                     </ul>
                 </li>
-                <li class="about"><a href="#about">About</a> </li>
+                <li><a href="#about">About</a> </li>
             </ul>
         </div>
         <div class="container">
