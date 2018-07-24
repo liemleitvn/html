@@ -184,14 +184,14 @@ header {
     border-bottom: 1px solid #666464;
 }
 
-.float {
+.pull-left {
     float: left;
 }
 
-.search .advanced-search div.search-field #check-in-date,
-.search .advanced-search div.search-field #check-out-date,
-.search .advanced-search div.search-field #min-price,
-.search .advanced-search div.search-field #max-price{
+.search .advanced-search div.search-field .check-in-date,
+.search .advanced-search div.search-field .check-out-date,
+.search .advanced-search div.search-field .min-price,
+.search .advanced-search div.search-field .max-price{
     padding: 0 100px 0 20px;
     width: 420px;
     color: #ffffff;
@@ -200,42 +200,42 @@ header {
     text-transform: uppercase;
     letter-spacing: 1px;
     line-height: 22px;
-    /*border: none;*/
+    border: none;
 }
 
-.search .advanced-search div.search-field #check-in-date{
+.search .advanced-search div.search-field .check-in-date{
     background: url(../img/calendar_icon.png) no-repeat;
     background-position: 484px 50%;
     float: left;
 }
 
-.search .advanced-search div.search-field #check-out-date {
+.search .advanced-search div.search-field .check-out-date {
     background: url(../img/calendar_icon.png) no-repeat;
     background-position: 484px 50%;
     float: right;
 }
 
 
-.search .advanced-search div.search-field #min-price {
+.search .advanced-search div.search-field .min-price {
     background: #cbe0f4;
     float: left;
 }
-.search .advanced-search div.search-field #max-price  {
+.search .advanced-search div.search-field .max-price  {
     background: #cbe0f4;
     float: right;
 }
 
-.search .advanced_search hr.field_sep {
+.search .advanced-search hr.field-sep {
     display: inline;
     width: 1px;
     height: 60px;
     border: 0;
     background: #aac8e4;
-    margin: 20px 0 0 0;
+    margin: -20px 0 0 0;
     padding: 0;
 }
 
-.search .advanced-search #keyword{
+#keyword{
     color: #ffffff;
     font-family: "lato-regular", Helvetica, Arial, sans-serif;
     font-size: 20px;
@@ -248,6 +248,7 @@ header {
     padding: 0 20px;
     margin: 39px 0 39px 0;
     box-sizing: border-box;
+    border: none;
 }
 
 
@@ -408,7 +409,7 @@ footer .wrapper .info img {
 
 
 /*Design form login*/
-.style_word {
+.style-word {
     font-size: 16px;
 }
 
@@ -422,7 +423,7 @@ footer .wrapper .info img {
     margin: 8px 0;
 }
 
-.login_btn {
+.login-btn {
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -433,7 +434,7 @@ footer .wrapper .info img {
     font-size: 16px;
 }
 
-.btn_cancel {
+.btn-cancel {
     width: auto;
     background: #f44336;
     padding: 10px 18px;
@@ -441,12 +442,12 @@ footer .wrapper .info img {
     cursor: pointer;
 }
 
-.forgot_psw {
+.forgot-psw {
     float: right;
     padding-top: 5px;
 }
 
-.forgot_psw .link{
+.forgot-psw .link{
     padding: 0;
     color: dodgerblue;
     text-decoration: underline;

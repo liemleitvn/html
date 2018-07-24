@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.width-100{
+    width: 100%;
+    height: auto;
+}
+header {
+    background-color: #9933cc;
+    color: #ffffff;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.wrapper {
+    width: 85%;
+    margin: auto;
+
+}
+
+.logo, .search {
+    max-width: 100%;
+    height: 60px;
+    float: left;
+}
+
+.search {
+    float: right;
+}
+.logo {
+    margin-left: 20px;
+}
+.main {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+}
+
+.main::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu {
+    width: 20%;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.menu ul {
+    width: 100%;
+    list-style-type: none;
+}
+
+.menu ul li {
+    text-align: left;
+}
+
+.menu ul li a{
+    background:  #33b5e5;
+    margin-bottom: 5px;
+    padding: 10px 10px;
+    font-size: 16px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+}
+
+.menu ul li a:hover {
+    background-color: #0099cc;
+    -webkit-transition: all 1s;
+    transition: all 0.5s;
+}
+
+.content {
+    width: 60%;
+    padding: 5px;
+    float: left;
+    box-sizing: border-box;
+}
+.content-title{
+    width: 100%;
+    height: 39px;
+    position: relative;
+    text-align: left;
+    margin: 0 0 5px 0;
+    border-bottom: 1px solid blue;
+    box-sizing: border-box;
+}
+
+.content-title-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: blue;
+    padding: 5px 5px 5px 10px;
+    margin: 0;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.content ul {
+    width: 100%;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.content ul li {
+    width: 25%;
+    float: left;
+}
+
+.detail{
+    width: 100%;
+    padding: 10px;
+    float: left;
+    display: inline-block;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.detail a{
+
+}
+.detail a img{
+    width: 100%;
+    height: auto;
+}
+
+.detail a img:hover {
+    -webkit-transform: scale3d(1.05, 1.05, 1);
+    transform: scale3d(1.05, 1.05, 1);
+    transition: all 0.5s;
+
+}
+
+.detail span {
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+    float: left;
+    font-size: 14px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pagination{
+    width: 100%;
+    margin: 20px auto;
+    display: inline-block;
+    transition: all 0.5s;
+    text-align: right;
+}
+
+.number, .active{
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+}
+
+.active:hover{color: red}
+.number:hover{
+    background:rgb(153, 153, 102);
+    color: red;
+}
+
+
+
+.widget {
+    width: 20%;
+    padding: 5px;
+    float: left;
+}
+
+.widget-content{
+}
+
+.widget iframe {
+    width: 100%;
+    height: auto;
+}
+
+.widget-content .ads-place{
+    margin-top: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.contact{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.contact ul {
+    list-style-type: none;
+}
+
+.contact-detail {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    padding: 5px 0px;
+}
+
+.contact-detail .logo-contact{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+
+.contact-detail .name-contact {
+    width: 75%;
+    height: 100%;
+    font-size: 16px;
+    color: white;
+    line-height: 40px;
+    float: left;
+}
+
+.name-contact p {
+    height: 100%;
+    line-height: 30px;
+}
+
+.contact-detail:hover{
+    transform: scale3d(1.02, 1.02, 1.02);
+
+}
+
+.facebook{
+    background: rgb(60, 90, 154);
+}
+.twitter{
+    background: #29c5f6;
+}
+.google-plus{
+    background: #eb4026;
+}
+.skype{
+    background: #01aef2;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    background: #9933cc;
+    float: left;
+    display: inline-block;
+}
+
+.footer-left{
+    width: 30%;
+    height: auto;
+    float: left;
+}
+
+.footer-center{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.footer-right{
+    width: 20%;
+    height: auto;
+    float: right;
+}
+
+.footer-left img{
+    width: 100%;
+    padding: 10px 30px 10px 0;
+}
+
+footer ul {
+    list-style-type: none;
+}
+footer ul li {
+    padding: 20px;
+    color: #ffffff;
+}
+
+.footer-center ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+#about{
+    position: relative;
+}
+
+#about li {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    list-style-type: none;
+}
+#about li, #about a{
+    display: block;
+    height: 17px;
+}
+
+#about-facbook{
+    left: 0;
+    width: 11px;
+    background: url("../image/social_media.png") 0 0;
+}
+
+#about-twitter{
+    left: 30px;
+    width: 20px;
+    background: url("../image/social_media.png") -11px 0;
+}
+
+#about-google-plus{
+    left: 70px;
+    width: 11px;
+    background: url("../image/social_media.png") -32px 0;
+}
+
+#about-skype{
+    left: 100px;
+    width: 17px;
+    background: url("../image/social_media.png") -43px 0;
+}
+
+.footer-right ul li img:hover{
+    background: #01aef2;
+}
+
+@media screen and (max-width: 600px){
+    .menu{width: 100%}
+    .content{width: 100%}
+    .widget {width: 100%}
+    .ads-place{display: none}
+    .footer-left{width: 100%}
+    .footer-center{width: 100%}
+    .footer-right{width: 100%}
+    .content ul li {width: 50%}
+    .number{display: none}
+    .pagination{text-align: center}
+}
+

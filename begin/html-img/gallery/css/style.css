@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: antiquewhite;
+    font: 14px "Arial";
+}
+
+.pull-left {
+    float: left;
+}
+
+.main {
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: 20px auto;
+    display: inline-block;
+}
+
+.gallery {
+    width: 253px; /*chieu rong thuc te cua moi khung la 275px (width: 253, border: 1, marin: 10)*/
+    height: 300PX; /*dieu dai thuc te: 300 height + 2px border + 40px margin*/
+    margin: 10px 10px 30px 10px;
+    border: 1px solid #ccc;
+    overflow: auto;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img{
+    width: 100%;
+}
+
+.gallery h2{
+    text-align: center;
+    margin: 2px;
+}
+
+.gallery p{
+    text-align: center;
+    margin: 2px;
+}
