@@ -61,9 +61,7 @@
             <input type="submit" value="">
         </form>
         <div>
-            <a class="advanced-search-icon" href="#">
-                <img src="img/advanced_search_icon.png" alt="search" onclick="search_detail()">
-            </a>
+            <img class="advanced-search-icon" src="img/advanced_search_icon.png" alt="search"">
         </div>
     </div>
     <div class="advanced-search">
@@ -323,7 +321,7 @@
         </div>
     </div>
 </footer>
-
-<script src="js/main.js"></script>
+<script src="../../../jquery/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.js"></script>
 </body>
 </html>

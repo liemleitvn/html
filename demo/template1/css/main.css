@@ -145,14 +145,14 @@ header {
 
 .search .wrapper .advanced-search-icon {
     float: right;
-    margin: 0 20px 0 0;
+    margin: 37px 20px 0 0;
 }
 
-.search .wrapper a.advanced-search-icon {
+.search .wrapper .advanced-search-icon {
     opacity: 0.6;
 }
 
-.search .wrapper a.advanced-search-icon:hover {
+.search .wrapper .advanced-search-icon:hover {
     opacity: 1;
 }
 
